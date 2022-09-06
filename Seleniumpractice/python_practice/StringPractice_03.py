@@ -28,7 +28,7 @@ print(sent.lower())
 print("***************************************************************************************************************************")
 
 print(sent.title())
-#to verify the boolean check
+#to verify the boolean check if its Lower Or Upper case
 print(sent.islower())
 print(sent.isupper())
 
@@ -57,5 +57,5 @@ name = "Aadya"
 print(f'I love {name} and {lang}')
 
 #strip method to remove the spaces
-mystr = "  My Love Priya "
+mystr = "  My name is Jiten "
 print(mystr.strip())
