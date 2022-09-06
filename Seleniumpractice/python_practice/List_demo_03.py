@@ -28,3 +28,8 @@ print(list_upd)
 #to get the values inside the list of list
 print(list_upd[2][1])
 #it will give output as Selenium
+
+
+#to create the List in another way by passing list inside the List - constructor
+list_03 = list([10,20,30])
+print(list_03)
