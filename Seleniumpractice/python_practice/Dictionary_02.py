@@ -18,3 +18,7 @@ print(my_dictionary)
 #another way of creating dictionary by giving values as tuple-list of tuples
 my_dict_tuple = dict([(1,"Jiten"), (2,"AADYA"),(3,"PriyaJeet")])
 print(my_dict_tuple)
+print(my_dict_tuple.get(1))
+
+for k, v in my_dict_tuple.items():
+    print("Each Key value :" + str(k) + " " + "Each Value is : " + v)

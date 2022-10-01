@@ -33,19 +33,21 @@ greeting(fname="Priya", lname='Aadya')
 print('******************************************')
 
 #create a function having the list of even numbers and pass parameter as list
-def even_numbers(list):
-    #create an empty list
+def even_numbers_list (list):
     even_list = []
-    odd_list  = []
-    #iterate over the list
     for x in list:
-        if x % 2 ==0:
-            #Add the even number inside the list
+        if x % 2 == 0:
             even_list.append(x)
         else:
-            odd_list.append(x)
-        return even_list
+            pass
+    return even_list
 
- #call the function
-result = even_numbers([2,10,8,9,12,24,56,64])
+
+
+
+result = even_numbers_list([2,10,8,9,12,24,56,64])
 print(result)
+
+
+
+

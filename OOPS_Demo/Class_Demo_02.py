@@ -4,11 +4,15 @@ class Person:
         print("Hello Python")
     #self means Instance of the Current class
     def hello_world(self):
+        #even we can call the parent class method with the help of self keyword
+        self.welcome()
         print('Print Hello_World')
 
     #create the method inside the class with two parameters
     def sum(self, num1, num2):
         print(num1+num2)
+
+
 
 
 #create the Object of the class
@@ -35,3 +39,6 @@ p2.city = "Sydney"
 #now access the variable name with the object
 print(p1.name)
 print(p2.city)
+
+#another way of accessing the object variable is by using the getattr method
+print(getattr(p2,"name"))
